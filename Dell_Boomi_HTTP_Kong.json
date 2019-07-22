@@ -1,0 +1,31 @@
+{
+	"connections": {
+		"HTTP PCF App": {
+			"url": {
+				"value": "https://temp.com"
+			}
+		}
+	},
+	"processProperties": {
+		"Compatibility PP": {
+			"Proxy Path": {
+				"key": "/compatibility/values"
+			},
+			"Base Path DPP": {
+				"key": ""
+			},
+			"X-Forwarded-Protocol": {
+				"key": "https"
+			},
+			"X-Forwarded-Port": {
+				"key": "443"
+			},
+			"X-Forwarded-Host": {
+				"key": "temp.com"
+			},
+			"X-Forwarded-Prefix": {
+				"key": "/m4/compatibility"
+			}
+		}
+	}
+}
